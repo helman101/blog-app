@@ -14,3 +14,59 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 103ms (Views: 51.9ms | ActiveRecord: 0.0ms | Allocations: 3575)
 
 
+Started GET "/articles" for ::1 at 2021-01-15 14:18:11 +0100
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 108)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/wandji/Microverse/Rails/blog-app/public/packs
+[Webpacker] Hash: 415a948d492e21802f43
+Version: webpack 4.46.0
+Time: 7424ms
+Built at: 01/15/2021 2:18:32 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-d5a3c3b4dce84b5eb605.js    125 KiB  application  [emitted] [immutable]  application
+js/application-d5a3c3b4dce84b5eb605.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-d5a3c3b4dce84b5eb605.js js/application-d5a3c3b4dce84b5eb605.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 21372.6ms | Allocations: 16438)
+Completed 200 OK in 21464ms (Views: 21462.6ms | Allocations: 17525)
+
+
+Started GET "/articles" for ::1 at 2021-01-15 14:18:40 +0100
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 2990)
+Completed 200 OK in 9ms (Views: 7.6ms | Allocations: 3373)
+
+
+Started GET "/articles" for ::1 at 2021-01-15 14:18:42 +0100
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2988)
+Completed 200 OK in 10ms (Views: 9.1ms | Allocations: 3361)
+
+
+Started GET "/" for ::1 at 2021-01-15 14:20:01 +0100
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 2970)
+Completed 200 OK in 10ms (Views: 9.3ms | Allocations: 3463)
+
+
