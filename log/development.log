@@ -387,3 +387,38 @@ Processing by ArticlesController#show as HTML
 Completed 200 OK in 17ms (Views: 11.7ms | ActiveRecord: 0.3ms | Allocations: 3910)
 
 
+Started GET "/" for ::1 at 2021-01-15 15:18:46 +0100
+  [1m[35m (4.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 25.6ms | Allocations: 4411)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 137.9ms | Allocations: 9822)
+Completed 200 OK in 203ms (Views: 157.2ms | ActiveRecord: 2.0ms | Allocations: 13635)
+
+
+Started GET "/articles/new" for ::1 at 2021-01-15 15:18:51 +0100
+Processing by ArticlesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (Duration: 69.0ms | Allocations: 5038)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 90.0ms | Allocations: 7902)
+Completed 200 OK in 97ms (Views: 94.9ms | ActiveRecord: 0.0ms | Allocations: 8528)
+
+
+Started POST "/articles" for ::1 at 2021-01-15 15:19:07 +0100
+Processing by ArticlesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "article"=>{"title"=>"", "body"=>"d"}, "commit"=>"Create Article"}
+  Rendering layout layouts/application.html.erb
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (Duration: 12.4ms | Allocations: 2642)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.9ms | Allocations: 5422)
+Completed 200 OK in 61ms (Views: 56.1ms | ActiveRecord: 0.0ms | Allocations: 6808)
+
+
