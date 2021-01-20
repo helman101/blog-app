@@ -2,10 +2,9 @@
 
 # Blog App
 
-> A super-basic blog app made with rails and run in sql, app working for create a article, delete it, see it and comment it
+> A super-basic blog app made with rails and run in sql, app works for creating, deleting veiwing and commenting on an article.
 
 ![screenshot](./blog.PNG)
-
 
 ## Built With
 
@@ -17,19 +16,19 @@
 - CSS
 - SQL
 
-
 ### Prerequisites
 
-  Text Editor (VSCode is suggested.)
-  Ruby
-  Rails
-  Bundler
-  Yarn
-  SQL
+Text Editor (VSCode is suggested.)
+Ruby
+Rails
+Bundler
+Yarn
+SQL
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps:
+
 - Fork this project
 - Open your terminal
 - Clone this project `git clone git@github.com:helman101/blog-app.git`
@@ -40,13 +39,11 @@ To get a local copy up and running follow these simple example steps:
 - Run `bundle install`
 - Migrate de database `rails db:migrate`
 
-
 ### Run tests
 
-- Run `rails s`  or  `rails server`
-- Now go to  http://localhost:3000
-- You will se the project working! 
-
+- Run `rails s` or `rails server`
+- Now go to http://localhost:3000
+- You will se the project working!
 
 ## Authors
 
@@ -57,9 +54,8 @@ To get a local copy up and running follow these simple example steps:
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/wandji20)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/wandji-bertrand/)
 
 ## 🤝 Contributing
 
@@ -80,6 +76,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Thanks to BarbieTechFabulous youtube channel for the tutorials
+- Thanks to Odin project for the tutorials.
 
 ## 📝 License
 
